@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "here-maps": "^3.0.2",
+    "react-bingmaps": "^3.6.1",
+    "react-simple-chatbot": "^0.6.1"
+  }
+}
