@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../Server"
+		},
+		{
+			"path": "../../../Datasets/c++"
+		},
+		{
+			"path": "../../../ML python"
+		}
+	],
+	"settings": {}
+}

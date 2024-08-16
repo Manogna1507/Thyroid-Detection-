@@ -1,0 +1,63 @@
+/* tests.css */
+
+.tests-page {
+  max-width: 800px;
+  margin: auto;
+  padding: 25px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tests-page h2 {
+  color: #333;
+}
+
+.tests-page .form-group {
+  margin-bottom: 15px;
+}
+
+.tests-page label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.tests-page input,
+.tests-page select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.tests-page input[type="checkbox"] {
+  width: auto;
+  margin-top: 10px;
+}
+
+/* Updated styling for radio buttons */
+.tests-page input[type="radio"] {
+
+  width: auto;;
+  margin-bottom: 15px; /* Add space between radio buttons */
+}
+
+.tests-page .radio-group {
+  margin-bottom: 80px; /* Add space between radio buttons and checkboxes */
+}
+
+.tests-page button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tests-page button:hover {
+  background-color:#0056b3;
+}

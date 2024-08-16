@@ -1,0 +1,90 @@
+.thyroid-info-container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.thyroid-info-container h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.thyroid-info-container h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.thyroid-info-container h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.thyroid-info-container p {
+  font-size: 1.02rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.thyroid-info-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.thyroid-info-container ul li {
+  font-size: 1.01rem;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.hormone-levels-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.hormone-levels-table th,
+.hormone-levels-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.hormone-levels-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.hormone-levels-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.hormone-levels-table td:last-child {
+  text-align: right;
+}
+
+.thyroid-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center items vertically */
+}
+
+.thyroid-image {
+  width: 220px; /* Adjust the width as needed */ /* Adjust the margin as needed */
+  margin-left: 20px;
+  margin-top: -30px;
+}
+
+.image {
+  width: 600px; 
+  height : 300px;
+  margin-left: 40px;
+  margin-top: -30px;
+  margin-right: 90px;
+}
+
+

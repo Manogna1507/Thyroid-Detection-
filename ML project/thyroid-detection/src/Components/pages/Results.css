@@ -1,0 +1,41 @@
+.health-report {
+    max-width: 600px;
+    margin: 150px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .report-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .report-text {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .prediction {
+    color: #17a4a6; /* Yellow background color for prediction */
+    padding: 5px 10px;
+    font-size: 20px; 
+  }
+  
+  .negative {
+    color: #28a745; /* Red color for negative result */
+  }
+  
+  .positive {
+    color: #dc3545; /* Green color for positive result */
+  }
+  
+  .unknown {
+    color: #6c757d; /* Gray color for unknown result */
+  }
+  

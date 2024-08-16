@@ -1,0 +1,93 @@
+.register {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+  );
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.registerTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.registerForm > label {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.registerInput {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.registerInput:focus {
+  outline: none;
+  border: 2px solid lightcoral;
+}
+
+.registerButton {
+  cursor: pointer;
+  background-color: lightcoral;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  text-decoration: none; /* Remove underline */
+  display: inline-block;
+}
+
+.registerButton:hover {
+  background-color: lightcoral;
+}
+
+.registerLoginButton {
+  background-color: lightcoral;
+  cursor: pointer;
+  padding: 12px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.registerLoginButton:hover {
+  background-color: #d32f2f;
+}
+
+.registerLoginText {
+  font-size: 16px;
+}
+
+.registerLoginLink {
+  color: #1565c0;
+  text-decoration: underline;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.registerLoginLink:hover {
+  color: #0d47a1;
+}
+
+/* Add any additional styles as needed */
